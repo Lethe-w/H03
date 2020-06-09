@@ -24,7 +24,7 @@ const store = new Vuex.Store({
 			for (let item of state.todos) {
 					item.completed= state.v;
 			}
-			state.v = !state.v;
+			state.v = !state.v; 
 		},
 		clear(state){
 			state.todos = state.todos.filter(item => !item.completed);
